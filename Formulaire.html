@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="StyleTest.css"> 
+	</head>
+
+<body>
+
+<h2>Exemple de Formulaire</h2>
+
+<form action=""> <!--Renseigner une page .php qui récupère les données dans l'attribut "action" --> 
+  
+  <!-- Demander Nom/Prénom -->
+  
+  <label for="fname">Prenom:</label><br>
+  <input type="text" id="fname" name="fname" value="Prenom"><br><br>
+  <label for="lname">Nom de famille:</label><br>
+  <input type="text" id="lname" name="lname" value="Nom de famille"><br><br>
+  
+  <!-- Checkbox Exemple -->
+  
+  <input type="checkbox" id="Mineur" name="Mineur" value="Age<17">
+  <label for="Mineur"> 0-17 ans</label><br>
+  <input type="checkbox"id="Majeur" name="Majeur" value="Age<18<65">
+  <label for="vehicle2"> 18-65 ans</label><br>
+  <input type="checkbox" id="Senior" name="Senior" value="Age>65">
+  <label for="vehicle3"> 65 + ans</label><br><br>
+ 
+	
+<!-- Bouton submit qui transfer les données-->
+
+  <input type="submit" value="Submit"><br><br>
+
+
+</form> 
+
+</body>
+
+<footer>
+		<button class="buttonBack" onclick ="window.location.href = 'Menu.html';"> Revenir Menu </button>
+	</footer>
+</html>
